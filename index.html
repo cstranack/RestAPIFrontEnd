@@ -17,13 +17,18 @@
             </div> 
         </div>
         <div class="row">
-            <form>
+            <form action="http://localhost:3000/api/addContact" method="POST">
                 <input type="text" name="name" placeholder="Enter Name">
                 <input type="email" name="email" placeholder="Enter Email">
                 <input type="text" name="number" placeholder="Enter Number">
                 <input  class="btn waves-effect waves-light" type="submit" value="Submit">
             </form>
         </div>
+        <div class="divider"></div>
+        <div class="row" id="contactList">
+
+        </div>
     </div>
+    <script src="js/script.js"></script>
 </body>
 </html>
